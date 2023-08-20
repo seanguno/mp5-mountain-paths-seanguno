@@ -12,6 +12,7 @@ public:
 private:
   static constexpr int kColorValueMin = 0;
   static constexpr int kColorValueMax = 255;
+  bool IsValid(int value);
   int red_ = 0;
   int green_ = 0;
   int blue_ = 0;
